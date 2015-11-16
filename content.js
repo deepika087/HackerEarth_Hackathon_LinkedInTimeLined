@@ -24,8 +24,8 @@ $(document).ready(function(){
 	 				Get the designation of the person.
 	 	**/
 	 	var designation = ""
-	 	if ( $('a[name="title"]', this).length > 0) {
-	 	 	designation = $('a[name="title"]', this).text();	
+	 	if ( $('a[title="Learn more about this title"]', this).length > 0) {
+	 	 	designation = $('a[title="Learn more about this title"]', this).text();	
 	 	 	//console.log(designation);
 	 	} 
 	 	
